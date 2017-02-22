@@ -1,3 +1,3 @@
 [submodule "lib/demo"]
 	path = lib/demo
-	url = https://github.com/xhrix/demo.git
+	url = git@github.com:xhrix/demo.git
