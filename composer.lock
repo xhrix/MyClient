@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ad40290217c5643936a72e3a52889280",
+    "content-hash": "f144c7c6cec372eb2972c85cb61b6621",
     "packages": [
         {
             "name": "gafamx/siclo-php-sdk",
@@ -437,53 +437,12 @@
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
             "time": "2017-02-16T22:46:52+00:00"
-        },
-        {
-            "name": "xhrix/demo",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/xhrix/demo.git",
-                "reference": "ceff3beb2825d43e2bda433a3ab13f2475c04477"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/xhrix/demo/zipball/ceff3beb2825d43e2bda433a3ab13f2475c04477",
-                "reference": "ceff3beb2825d43e2bda433a3ab13f2475c04477",
-                "shasum": ""
-            },
-            "require": {
-                "nesbot/carbon": "^1.22",
-                "php": "^7.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "xhrix\\": "src/demo/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "xhrix",
-                    "email": "xxxhrixxx@gmail.com"
-                }
-            ],
-            "description": "Simple project to learn how to use packagist.",
-            "support": {
-                "source": "https://github.com/xhrix/demo/tree/master",
-                "issues": "https://github.com/xhrix/demo/issues"
-            },
-            "time": "2017-02-22 00:26:05"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "xhrix/demo": 20,
         "gafamx/siclo-php-sdk": 20
     },
     "prefer-stable": false,

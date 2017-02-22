@@ -10,17 +10,17 @@
         }
     ],
     "require": {
-        "xhrix/demo": "dev-master",
         "gafamx/siclo-php-sdk": "dev-master"
     },
     "repositories": [
         {
             "type": "vcs",
-            "url":  "git@github.com:xhrix/demo.git"
-        },
-        {
-            "type": "vcs",
             "url":  "https://x:x@github.com/GafaMX/SicloPhpSdk.git"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "xhrix\\": "lib/demo"
+        }
+    }
 }
